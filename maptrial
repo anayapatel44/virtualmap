@@ -1,0 +1,19 @@
+<script crossorigin src="https://unpkg.com/wolfram-notebook-embedder@0.3/dist/wolfram-notebook-embedder.min.js"></script>
+<html>
+<head>
+    <title>Basic example</title>
+</head>
+<body>
+
+<h1>Basic example</h1>
+<div id="container"></div>
+<script src="./dist/wolfram-notebook-embedder.js"></script>
+<script>
+    WolframNotebookEmbedder.embed(
+        'https://www.wolframcloud.com/obj/51fada55-5e7e-4aa5-a103-2038d28a8b54',
+        document.getElementById('container')
+    );
+</script>
+
+</body>
+</html>
